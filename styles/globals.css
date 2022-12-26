@@ -2,8 +2,8 @@
 @import url('/vendor/bootstrap/bootstrap.min.css');
 @import url('/vendor/fontawesome/css/all.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css');
-@import url('/vendor/owl-carousel/owl.carousel.min.css');
-@import url('/vendor/aos/aos.css');
+/* @import url('/vendor/owl-carousel/owl.carousel.min.css'); */
+/* @import url('/vendor/aos/aos.css'); */
 :root {
     --primary-color: #1352cc;
     --secondary-color: #ffa800;
@@ -133,8 +133,25 @@ img[data-src] {opacity: 0;}
 
 /* Client section */
 #clients {padding-top: 0;}
-#clients img {filter:grayscale(9) opacity(0.2);transition: .5s ease 0s;max-width: 80%;}
+#clients img {filter:grayscale(9) opacity(0.2);transition: .5s ease 0s;}
 #clients .item:hover img {filter: none;}
+
+/* remove later */
+.owl-carousel.owl-theme.clients {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#reviews {overflow: hidden;}
+#reviews .owl-carousel.owl-theme.reviews .item:not(:first-child) {
+    display:none
+}
+#reviews .review {
+    position: relative;
+}
+#reviews .photo {
+    top:-65px;
+}
 
 /* License section */
 #license {padding: 170px 0 120px;}
