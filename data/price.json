@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Basic",
+        "price":"25.00",
+        "duration":"1 Month",
+        "duration_basis":"PER MONTH",
+        "desc":"Pay $25.00 every month",
+        "btn_text":"Get Started"
+    },
+    {
+        "focus":"Most Popular",
+        "title":"Premium",
+        "price":"12.50",
+        "duration":"1 Year",
+        "duration_basis":"PER MONTH",
+        "desc":"Pay <del>$300.00</del><br/>$150.00 every year",
+        "btn_text":"Get Started"
+    },
+    {
+        "title":"Standard",
+        "price":"16.67",
+        "duration":"6 Month",
+        "duration_basis":"PER MONTH",
+        "desc":"Pay <del>$150.00</del><br />$100.00 every 6 months",
+        "btn_text":"Get Started"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name":"George",
+        "rate":5,
+        "photo":"/images/person/1.webp",
+        "comment":"Our workforce spends little time at a desik and it’s been a challenge to keep people informed through traditional means. Lorem VPN allows us to deliver information through an easy to use and secure mobile channel. It has revolutionized the way we connect and share knowledge."
+    },
+    {
+        "name":"Kelly",
+        "rate":4,
+        "photo":"/images/person/2.webp",
+        "comment":"Our workforce spends little time at a desik and it’s been a challenge to keep people informed through traditional means. Lorem VPN allows us to deliver information through an easy to use and secure mobile channel. It has revolutionized the way we connect and share knowledge."
+    },
+    {
+        "name":"Harry",
+        "rate":3,
+        "photo":"/images/person/2.webp",
+        "comment":"Our workforce spends little time at a desik and it’s been a challenge to keep people informed through traditional means. Lorem VPN allows us to deliver information through an easy to use and secure mobile channel. It has revolutionized the way we connect and share knowledge."
+    }
+]

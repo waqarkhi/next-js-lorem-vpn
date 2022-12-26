@@ -1,0 +1,19 @@
+[
+    {
+        "icon":"/images/icons/4.webp",
+        "title":"Installation Guide"
+    },
+    {
+        "focus":true,
+        "icon":"/images/icons/5.webp",
+        "title":"Live Call Support"
+    },
+    {
+        "icon":"/images/icons/6.webp",
+        "title":"Communication Tool"
+    },
+    {
+        "icon":"/images/icons/7.webp",
+        "title":"Track Your Move"
+    }
+]

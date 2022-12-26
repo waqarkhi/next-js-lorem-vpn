@@ -1,0 +1,26 @@
+[
+    {
+        "image":"/images/news/1.webp",
+        "title":"What's The Connection Between Employee and Customer Experience?",
+        "author":"Freya John",
+        "date":3,
+        "content":"It is important for organizations to understand what experiences are crucial for their success, how the different experiences are correlat-",
+        "link":"/news/1"
+    },
+    {
+        "image":"/images/news/2.webp",
+        "title":"What's The Connection Between Employee and Customer Experience?",
+        "author":"Oliver Jack",
+        "date":6,
+        "content":"It is important for organizations to understand what experiences are crucial for their success, how the different experiences are correlat-",
+        "link":"/news/2"
+    },
+    {
+        "image":"/images/news/3.webp",
+        "title":"What's The Connection Between Employee and Customer Experience?",
+        "author":"Evie Willow",
+        "date":9,
+        "content":"It is important for organizations to understand what experiences are crucial for their success, how the different experiences are correlat-",
+        "link":"/news/3"
+    }
+]

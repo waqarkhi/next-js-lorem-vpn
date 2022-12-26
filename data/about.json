@@ -1,0 +1,15 @@
+[
+    {
+        "icon":"/images/icons/1.webp",
+        "title":"Surf anonymously",
+        "desc":"Hide your online identity and surf web anonymously. Your IP address is a total secret - so you will never be tracked."
+    },{
+        "icon":"/images/icons/2.webp",
+        "title":"Browse the web securely",
+        "desc":"Your Internet traffic is protected from any hackers and spies via SSL encryption, which runs seamlessly in the background."
+    },{
+        "icon":"/images/icons/3.webp",
+        "title": "Network of Powerful Servers",
+        "desc": "Lorem VPN has a vast network of super powerful dedicated servers all around the globe so that everything runs smoothly without lags"
+    }
+]

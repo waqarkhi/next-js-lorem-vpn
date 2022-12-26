@@ -1,0 +1,58 @@
+[
+    {
+        "title":"Home",
+        "href":"#home"
+    },
+    {
+        "title":"About us",
+        "href":"#about",
+        "subMenu":[
+            {
+                "title":"<i class='fa-brands fa-windows'></i>Windows",
+                "href":"#download#windows"
+            },
+            {
+                "title":"<i class='fa-brands fa-apple'></i>Mac OS",
+                "href":"#download#mac"
+            },
+            {
+                "title":"<i class='fa-brands fa-app-store-ios'></i>iPhone/iPad",
+                "href":"#download#ipad"
+            },
+            {
+                "title":"<i class='bx bxl-android'></i>Android",
+                "href":"#download#android"
+            },
+            {
+                "title":"<i class='fa-brands fa-linux'></i>Linux",
+                "href":"#download#linux"
+            },
+            {
+                "title":"<i class='fa-solid fa-wifi'></i>VPN Router Applet",
+                "href":"#download#router"
+            }
+        ]
+    },{
+        "title":"How it works",
+        "href": "#work"
+    },{
+        "title":"Why Lorem VPN",
+        "href": "#why"
+    },{
+        "title":"Pricing",
+        "href":"#pricing"
+    },
+    {
+        "title":"Reviews",
+        "href":"#reviews"
+    },
+    {
+        "title":"Login",
+        "href":"#login"
+    },
+    {
+        "title":"Signup",
+        "href":"#signup"
+    }
+
+]
