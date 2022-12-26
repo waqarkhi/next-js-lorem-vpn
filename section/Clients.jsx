@@ -1,4 +1,5 @@
 import logos from '../data/clients.json'
+import Image from 'next/image'
 
 const Clients = () => {
     return (
@@ -6,7 +7,7 @@ const Clients = () => {
         <div className="container">
             <div className="owl-carousel owl-theme clients">
                 {logos.map((item,i) => (
-                    <div key={i} className="item"><img src={item} /></div>
+                    <div key={i} className="item"><Image width="176" height="80" src={item} alt="Client" /></div>
                 ))}
             </div>
         </div>

@@ -1,5 +1,6 @@
 import boxes from '../data/license.json'
 import Title from '../components/Title'
+import Image from 'next/image'
 
 const License = () => {
     return (
@@ -19,7 +20,7 @@ const License = () => {
                     <div className="boxs">
                         {boxes.map((box,i) => (
                             <div key={i} className={`box ${(box.focus)?" focus":""}`} data-aos="flip-right" data-aos-delay="1000">
-                                <i className="box-icon"><img src={box.icon} alt={box.title} /></i>
+                                <i className="box-icon"><Image width="100" height="100" src={box.icon} alt={box.title} /></i>
                                 <h3 className="box-title">{box.title}</h3>
                             </div>
                         ))}

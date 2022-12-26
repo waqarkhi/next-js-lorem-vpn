@@ -1,5 +1,6 @@
 import List from "../components/List"
 import Title from "../components/Title"
+import Image from 'next/image'
 
 const Why = () => {
     return (
@@ -20,7 +21,7 @@ const Why = () => {
                         }} />
                     </div>
                     <div className="col-lg-7 pos-rel">
-                        <img src="/images/phones.svg" className="pos-abs" alt="Lorem VPN" />
+                        <Image src="/images/phones.svg" width="551" height="823" className="pos-abs" alt="Lorem VPN" />
                     </div>
                 </div>
             </div>

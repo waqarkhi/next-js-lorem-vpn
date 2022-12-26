@@ -13,8 +13,8 @@ const About = () => {
                 <Title info={info} />
                 
                 <div className="row about-boxes justify-content-center">
-                    {about.map((item) => (
-                    <div className="col-lg-4 col-md-6">
+                    {about.map((item,i) => (
+                    <div className="col-lg-4 col-md-6" key={i}>
                         <IconBox info={{
                             icon:item.icon,
                             title: item.title,

@@ -1,5 +1,6 @@
 import Title from "../components/Title"
 import List from "../components/List"
+import Image from 'next/image'
 
 const How = () => {
     return (
@@ -7,8 +8,8 @@ const How = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-7">
-                    <div className="work-image" data-aos="fade-right">
-                        <a href="#"><img className="img-fluid" src="/images/team-work.webp" /></a>
+                    <div className="work-image">
+                        <a href="#"><Image className="img-fluid" src="/images/team-work.webp" width="637" height="428" alt="work" /></a>
                     </div>
                 </div>
                 <div className="col-lg-5">

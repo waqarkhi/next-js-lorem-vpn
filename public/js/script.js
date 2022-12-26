@@ -2,6 +2,15 @@ window.addEventListener
     ? window.addEventListener('load',script,false)
     : window.attachEvent && window.attachEvent('onload',script);
 function script() {
+
+    $('#site_header .navigation').attr({
+        "data-aos":"fade-down",
+        "data-delay": "500"
+    });
+    $('#work .work-image').attr({
+        "data-aos":"fade-right"
+    })
+
     var rev = $('.reviews')
         clients = $('.clients'),
         year = $('#YYYY');

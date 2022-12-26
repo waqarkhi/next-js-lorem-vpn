@@ -1,10 +1,11 @@
 import Rate from '../components/Rate'
+import Image from 'next/image'
 
 const Review = ({info}) => {
     return (
         <div className="review">
             <div className="photo">
-                <img src={info.photo} alt={info.name} />
+                <Image src={info.photo} width="130" height="130" alt={info.name} />
             </div>
             <div className="comment">&quot;{info.comment}&quot;</div>
             <div className="about-person">

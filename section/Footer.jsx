@@ -1,6 +1,7 @@
 import FooterBottom from "../components/FooterBottom"
 import List from "../components/List"
 import contactInfo from '../data/contact.json'
+import Image from 'next/image'
 
 const Footer = () => {
     return (
@@ -29,7 +30,7 @@ const Footer = () => {
                         }}/>
                     </div>
                     <div className="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <a href="#"><img className="footer-logo" src="images/light-logo.webp" alt="Lorem VPN"/></a>
+                        <a href="#"><Image width="220" height="33" className="footer-logo" src="/images/light-logo.webp" alt="Lorem VPN"/></a>
                         <form action="#">
                             <div className="form-group">
                                 <input type="email" className="form-control" placeholder="you@yourmail.com" />

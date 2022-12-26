@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 const Banner = () => {
     return (
@@ -23,7 +23,7 @@ const Banner = () => {
                     </div>
                     <div className="col-lg-6">
                         <div id="animation">
-                            <img src="images/animation.svg" alt="Lorem VPN" />
+                            <Image src="images/animation.svg" alt="Lorem VPN" width="814" height="741" />
                         </div>
                     </div>
                 </div>
